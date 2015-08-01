@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42FE10511B6CC863003233DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE10501B6CC863003233DC /* main.m */; };
+		42FE10541B6CC863003233DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE10531B6CC863003233DC /* AppDelegate.m */; };
+		42FE105A1B6CC863003233DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE10581B6CC863003233DC /* Main.storyboard */; };
+		42FE105C1B6CC863003233DC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FE105B1B6CC863003233DC /* Images.xcassets */; };
+		42FE105F1B6CC863003233DC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FE105D1B6CC863003233DC /* LaunchScreen.xib */; };
+		42FE106B1B6CC863003233DC /* UINavigationController_SeraphExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE106A1B6CC863003233DC /* UINavigationController_SeraphExtensionTests.m */; };
+		42FE10801B6CC9A4003233DC /* SENavigationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE10771B6CC9A4003233DC /* SENavigationDelegate.m */; };
+		42FE10811B6CC9A4003233DC /* SENavigationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE10791B6CC9A4003233DC /* SENavigationTransition.m */; };
+		42FE10821B6CC9A4003233DC /* SEPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE107B1B6CC9A4003233DC /* SEPanGestureRecognizer.m */; };
+		42FE10831B6CC9A4003233DC /* UINavigationController+SE.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE107D1B6CC9A4003233DC /* UINavigationController+SE.m */; };
+		42FE10841B6CC9A4003233DC /* UIView+SE.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE107F1B6CC9A4003233DC /* UIView+SE.m */; };
+		42FE10991B6CC9CD003233DC /* TestAnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE10921B6CC9CD003233DC /* TestAnotherViewController.m */; };
+		42FE109A1B6CC9CD003233DC /* TestFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE10941B6CC9CD003233DC /* TestFirstViewController.m */; };
+		42FE109B1B6CC9CD003233DC /* TestSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE10961B6CC9CD003233DC /* TestSecondViewController.m */; };
+		42FE109C1B6CC9CD003233DC /* TestTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 42FE10981B6CC9CD003233DC /* TestTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42FE10651B6CC863003233DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FE10431B6CC863003233DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FE104A1B6CC863003233DC;
+			remoteInfo = "UINavigationController+SeraphExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42FE104B1B6CC863003233DC /* UINavigationController+SeraphExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UINavigationController+SeraphExtension.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FE104F1B6CC863003233DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FE10501B6CC863003233DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42FE10521B6CC863003233DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		42FE10531B6CC863003233DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		42FE10591B6CC863003233DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42FE105B1B6CC863003233DC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42FE105E1B6CC863003233DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		42FE10641B6CC863003233DC /* UINavigationController+SeraphExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UINavigationController+SeraphExtensionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FE10691B6CC863003233DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FE106A1B6CC863003233DC /* UINavigationController_SeraphExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavigationController_SeraphExtensionTests.m; sourceTree = "<group>"; };
+		42FE10761B6CC9A4003233DC /* SENavigationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENavigationDelegate.h; sourceTree = "<group>"; };
+		42FE10771B6CC9A4003233DC /* SENavigationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENavigationDelegate.m; sourceTree = "<group>"; };
+		42FE10781B6CC9A4003233DC /* SENavigationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SENavigationTransition.h; sourceTree = "<group>"; };
+		42FE10791B6CC9A4003233DC /* SENavigationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SENavigationTransition.m; sourceTree = "<group>"; };
+		42FE107A1B6CC9A4003233DC /* SEPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEPanGestureRecognizer.h; sourceTree = "<group>"; };
+		42FE107B1B6CC9A4003233DC /* SEPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEPanGestureRecognizer.m; sourceTree = "<group>"; };
+		42FE107C1B6CC9A4003233DC /* UINavigationController+SE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SE.h"; sourceTree = "<group>"; };
+		42FE107D1B6CC9A4003233DC /* UINavigationController+SE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SE.m"; sourceTree = "<group>"; };
+		42FE107E1B6CC9A4003233DC /* UIView+SE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SE.h"; sourceTree = "<group>"; };
+		42FE107F1B6CC9A4003233DC /* UIView+SE.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SE.m"; sourceTree = "<group>"; };
+		42FE10911B6CC9CD003233DC /* TestAnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAnotherViewController.h; sourceTree = "<group>"; };
+		42FE10921B6CC9CD003233DC /* TestAnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestAnotherViewController.m; sourceTree = "<group>"; };
+		42FE10931B6CC9CD003233DC /* TestFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFirstViewController.h; sourceTree = "<group>"; };
+		42FE10941B6CC9CD003233DC /* TestFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFirstViewController.m; sourceTree = "<group>"; };
+		42FE10951B6CC9CD003233DC /* TestSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSecondViewController.h; sourceTree = "<group>"; };
+		42FE10961B6CC9CD003233DC /* TestSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestSecondViewController.m; sourceTree = "<group>"; };
+		42FE10971B6CC9CD003233DC /* TestTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestTransition.h; sourceTree = "<group>"; };
+		42FE10981B6CC9CD003233DC /* TestTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestTransition.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42FE10481B6CC863003233DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FE10611B6CC863003233DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42FE10421B6CC863003233DC = {
+			isa = PBXGroup;
+			children = (
+				42FE104D1B6CC863003233DC /* UINavigationController+SeraphExtension */,
+				42FE10671B6CC863003233DC /* UINavigationController+SeraphExtensionTests */,
+				42FE104C1B6CC863003233DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42FE104C1B6CC863003233DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FE104B1B6CC863003233DC /* UINavigationController+SeraphExtension.app */,
+				42FE10641B6CC863003233DC /* UINavigationController+SeraphExtensionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FE104D1B6CC863003233DC /* UINavigationController+SeraphExtension */ = {
+			isa = PBXGroup;
+			children = (
+				42FE10751B6CC9A4003233DC /* UINavigationController+SeraphExtension */,
+				42FE10521B6CC863003233DC /* AppDelegate.h */,
+				42FE10531B6CC863003233DC /* AppDelegate.m */,
+				42FE10911B6CC9CD003233DC /* TestAnotherViewController.h */,
+				42FE10921B6CC9CD003233DC /* TestAnotherViewController.m */,
+				42FE10931B6CC9CD003233DC /* TestFirstViewController.h */,
+				42FE10941B6CC9CD003233DC /* TestFirstViewController.m */,
+				42FE10951B6CC9CD003233DC /* TestSecondViewController.h */,
+				42FE10961B6CC9CD003233DC /* TestSecondViewController.m */,
+				42FE10971B6CC9CD003233DC /* TestTransition.h */,
+				42FE10981B6CC9CD003233DC /* TestTransition.m */,
+				42FE10581B6CC863003233DC /* Main.storyboard */,
+				42FE105B1B6CC863003233DC /* Images.xcassets */,
+				42FE105D1B6CC863003233DC /* LaunchScreen.xib */,
+				42FE104E1B6CC863003233DC /* Supporting Files */,
+			);
+			path = "UINavigationController+SeraphExtension";
+			sourceTree = "<group>";
+		};
+		42FE104E1B6CC863003233DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42FE104F1B6CC863003233DC /* Info.plist */,
+				42FE10501B6CC863003233DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42FE10671B6CC863003233DC /* UINavigationController+SeraphExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				42FE106A1B6CC863003233DC /* UINavigationController_SeraphExtensionTests.m */,
+				42FE10681B6CC863003233DC /* Supporting Files */,
+			);
+			path = "UINavigationController+SeraphExtensionTests";
+			sourceTree = "<group>";
+		};
+		42FE10681B6CC863003233DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42FE10691B6CC863003233DC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42FE10751B6CC9A4003233DC /* UINavigationController+SeraphExtension */ = {
+			isa = PBXGroup;
+			children = (
+				42FE10761B6CC9A4003233DC /* SENavigationDelegate.h */,
+				42FE10771B6CC9A4003233DC /* SENavigationDelegate.m */,
+				42FE10781B6CC9A4003233DC /* SENavigationTransition.h */,
+				42FE10791B6CC9A4003233DC /* SENavigationTransition.m */,
+				42FE107A1B6CC9A4003233DC /* SEPanGestureRecognizer.h */,
+				42FE107B1B6CC9A4003233DC /* SEPanGestureRecognizer.m */,
+				42FE107C1B6CC9A4003233DC /* UINavigationController+SE.h */,
+				42FE107D1B6CC9A4003233DC /* UINavigationController+SE.m */,
+				42FE107E1B6CC9A4003233DC /* UIView+SE.h */,
+				42FE107F1B6CC9A4003233DC /* UIView+SE.m */,
+			);
+			path = "UINavigationController+SeraphExtension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42FE104A1B6CC863003233DC /* UINavigationController+SeraphExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FE106E1B6CC863003233DC /* Build configuration list for PBXNativeTarget "UINavigationController+SeraphExtension" */;
+			buildPhases = (
+				42FE10471B6CC863003233DC /* Sources */,
+				42FE10481B6CC863003233DC /* Frameworks */,
+				42FE10491B6CC863003233DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UINavigationController+SeraphExtension";
+			productName = "UINavigationController+SeraphExtension";
+			productReference = 42FE104B1B6CC863003233DC /* UINavigationController+SeraphExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42FE10631B6CC863003233DC /* UINavigationController+SeraphExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FE10711B6CC863003233DC /* Build configuration list for PBXNativeTarget "UINavigationController+SeraphExtensionTests" */;
+			buildPhases = (
+				42FE10601B6CC863003233DC /* Sources */,
+				42FE10611B6CC863003233DC /* Frameworks */,
+				42FE10621B6CC863003233DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42FE10661B6CC863003233DC /* PBXTargetDependency */,
+			);
+			name = "UINavigationController+SeraphExtensionTests";
+			productName = "UINavigationController+SeraphExtensionTests";
+			productReference = 42FE10641B6CC863003233DC /* UINavigationController+SeraphExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42FE10431B6CC863003233DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = SigmaStudio;
+				TargetAttributes = {
+					42FE104A1B6CC863003233DC = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					42FE10631B6CC863003233DC = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 42FE104A1B6CC863003233DC;
+					};
+				};
+			};
+			buildConfigurationList = 42FE10461B6CC863003233DC /* Build configuration list for PBXProject "UINavigationController+SeraphExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42FE10421B6CC863003233DC;
+			productRefGroup = 42FE104C1B6CC863003233DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42FE104A1B6CC863003233DC /* UINavigationController+SeraphExtension */,
+				42FE10631B6CC863003233DC /* UINavigationController+SeraphExtensionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42FE10491B6CC863003233DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FE105A1B6CC863003233DC /* Main.storyboard in Resources */,
+				42FE105F1B6CC863003233DC /* LaunchScreen.xib in Resources */,
+				42FE105C1B6CC863003233DC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FE10621B6CC863003233DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42FE10471B6CC863003233DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FE10841B6CC9A4003233DC /* UIView+SE.m in Sources */,
+				42FE10801B6CC9A4003233DC /* SENavigationDelegate.m in Sources */,
+				42FE109A1B6CC9CD003233DC /* TestFirstViewController.m in Sources */,
+				42FE10541B6CC863003233DC /* AppDelegate.m in Sources */,
+				42FE109C1B6CC9CD003233DC /* TestTransition.m in Sources */,
+				42FE10811B6CC9A4003233DC /* SENavigationTransition.m in Sources */,
+				42FE10821B6CC9A4003233DC /* SEPanGestureRecognizer.m in Sources */,
+				42FE10511B6CC863003233DC /* main.m in Sources */,
+				42FE10991B6CC9CD003233DC /* TestAnotherViewController.m in Sources */,
+				42FE109B1B6CC9CD003233DC /* TestSecondViewController.m in Sources */,
+				42FE10831B6CC9A4003233DC /* UINavigationController+SE.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FE10601B6CC863003233DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FE106B1B6CC863003233DC /* UINavigationController_SeraphExtensionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42FE10661B6CC863003233DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42FE104A1B6CC863003233DC /* UINavigationController+SeraphExtension */;
+			targetProxy = 42FE10651B6CC863003233DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42FE10581B6CC863003233DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FE10591B6CC863003233DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42FE105D1B6CC863003233DC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FE105E1B6CC863003233DC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42FE106C1B6CC863003233DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		42FE106D1B6CC863003233DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42FE106F1B6CC863003233DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UINavigationController+SeraphExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42FE10701B6CC863003233DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "UINavigationController+SeraphExtension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42FE10721B6CC863003233DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UINavigationController+SeraphExtensionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UINavigationController+SeraphExtension.app/UINavigationController+SeraphExtension";
+			};
+			name = Debug;
+		};
+		42FE10731B6CC863003233DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UINavigationController+SeraphExtensionTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UINavigationController+SeraphExtension.app/UINavigationController+SeraphExtension";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42FE10461B6CC863003233DC /* Build configuration list for PBXProject "UINavigationController+SeraphExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FE106C1B6CC863003233DC /* Debug */,
+				42FE106D1B6CC863003233DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FE106E1B6CC863003233DC /* Build configuration list for PBXNativeTarget "UINavigationController+SeraphExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FE106F1B6CC863003233DC /* Debug */,
+				42FE10701B6CC863003233DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42FE10711B6CC863003233DC /* Build configuration list for PBXNativeTarget "UINavigationController+SeraphExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FE10721B6CC863003233DC /* Debug */,
+				42FE10731B6CC863003233DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42FE10431B6CC863003233DC /* Project object */;
+}
